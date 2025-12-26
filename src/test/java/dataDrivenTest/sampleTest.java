@@ -11,8 +11,7 @@ public class sampleTest extends dataDriven{
 	public void fetchData() throws IOException
 	{
 		
-		//we fetched the excel data into an arrayList.
-
+		
 		List<String> al = getDataFromExcel1("Add Prod to Cart");
 		System.out.println(al);
 		
