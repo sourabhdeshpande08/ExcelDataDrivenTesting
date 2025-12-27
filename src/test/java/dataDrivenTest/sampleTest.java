@@ -5,21 +5,14 @@ import java.util.List;
 
 import org.testng.annotations.Test;
 
-public class sampleTest extends dataDriven{
-	
+public class sampleTest extends dataDriven {
+
 	@Test
-	public void fetchData() throws IOException
-	{
-		
-		
-		List<String> al = getDataFromExcel1("Add Prod to Cart");
+	public void fetchData() throws IOException {
+
+		List<String> al = getDataFromExcel1("Launch App");
 		System.out.println(al);
-		
-		
-		
-		
-		
+
 	}
-	
 
 }
