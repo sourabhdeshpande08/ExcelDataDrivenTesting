@@ -14,13 +14,6 @@ public class sampleTest extends dataDriven{
 		List<String> al = getDataFromExcel1("Add Prod to Cart");
 		System.out.println(al);
 		
-//		for(int i=0;i<al.size();i++)
-//		{
-//			
-//			System.out.println(al.get(i));
-//			
-//			
-//		}
 		
 		
 		
