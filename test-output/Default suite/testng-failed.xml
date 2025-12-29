@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDrivenTest.sampleTest">
+      <class name="dataDrivenTest.LoginPagePractise">
         <methods>
-          <include name="fetchData"/>
+          <include name="launchApp"/>
+          <include name="purchaseOrder" invocation-numbers="0"/>
         </methods>
-      </class> <!-- dataDrivenTest.sampleTest -->
+      </class> <!-- dataDrivenTest.LoginPagePractise -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

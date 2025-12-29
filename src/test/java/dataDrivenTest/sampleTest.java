@@ -10,7 +10,7 @@ public class sampleTest extends dataDriven {
 	@Test
 	public void fetchData() throws IOException {
 
-		List<String> al = getDataFromExcel1("Launch App");
+		List<String> al = getDataFromExcel1("launch app");
 		System.out.println(al);
 
 	}

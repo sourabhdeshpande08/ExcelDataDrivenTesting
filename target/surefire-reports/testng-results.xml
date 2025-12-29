@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-28T22:52:13 IST" name="Default suite" finished-at="2025-12-28T22:52:23 IST" duration-ms="10133">
+  <suite started-at="2025-12-29T14:30:03 IST" name="Surefire suite" finished-at="2025-12-29T14:30:16 IST" duration-ms="13313">
     <groups>
     </groups>
-    <test started-at="2025-12-28T22:52:13 IST" name="Default test" finished-at="2025-12-28T22:52:23 IST" duration-ms="10133">
+    <test started-at="2025-12-29T14:30:03 IST" name="Surefire test" finished-at="2025-12-29T14:30:16 IST" duration-ms="13313">
       <class name="dataDrivenTest.LoginPagePractise">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:dataDrivenTest.LoginPagePractise@2898ac89]" started-at="2025-12-28T22:52:13 IST" name="launchApp" finished-at="2025-12-28T22:52:14 IST" duration-ms="1359" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:dataDrivenTest.LoginPagePractise@16e7dcfd]" started-at="2025-12-29T14:30:03 IST" name="launchApp" finished-at="2025-12-29T14:30:05 IST" duration-ms="2347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="purchaseOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTest.LoginPagePractise@2898ac89]" started-at="2025-12-28T22:52:15 IST" name="purchaseOrder" data-provider="getDataFromExcel" finished-at="2025-12-28T22:52:23 IST" duration-ms="8258" status="PASS">
+        <test-method signature="purchaseOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTest.LoginPagePractise@16e7dcfd]" started-at="2025-12-29T14:30:06 IST" name="purchaseOrder" data-provider="getDataFromExcel" finished-at="2025-12-29T14:30:16 IST" duration-ms="9760" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,6 +33,6 @@
           </reporter-output>
         </test-method> <!-- purchaseOrder -->
       </class> <!-- dataDrivenTest.LoginPagePractise -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>
