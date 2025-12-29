@@ -48,6 +48,8 @@ public class LandingPage extends AbstractClass{
 	
 	
 	
+	
+	
 	public void goToURL(String URL)
 	{
 		
@@ -57,7 +59,7 @@ public class LandingPage extends AbstractClass{
 		
 	}
 	
-	public productsList login(String user, String pass)
+	public productsList login(String user, String pass) throws InterruptedException
 	{
 		
 		userName.sendKeys(user);
@@ -65,6 +67,9 @@ public class LandingPage extends AbstractClass{
 		radioButton.click();
 		visibleElement(popUp);
 		okay.click();
+		
+		Thread.sleep(1000);
+		visibleElement(dropdown);
 		
 		Select sel = new Select(dropdown);
 		sel.selectByVisibleText("Consultant");
