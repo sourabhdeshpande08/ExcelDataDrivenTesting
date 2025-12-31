@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-29T18:47:31 IST" name="Default suite" finished-at="2025-12-29T18:47:49 IST" duration-ms="18269">
+  <suite started-at="2025-12-31T13:39:57 IST" name="Suite" finished-at="2025-12-31T13:40:14 IST" duration-ms="17925">
     <groups>
     </groups>
-    <test started-at="2025-12-29T18:47:31 IST" name="Default test" finished-at="2025-12-29T18:47:49 IST" duration-ms="18269">
+    <test started-at="2025-12-31T13:39:57 IST" name="Test" finished-at="2025-12-31T13:40:14 IST" duration-ms="17925">
       <class name="dataDrivenTest.LoginPagePractise">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:dataDrivenTest.LoginPagePractise@4961f6af]" started-at="2025-12-29T18:47:31 IST" name="launchApp" finished-at="2025-12-29T18:47:34 IST" duration-ms="2937" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:dataDrivenTest.LoginPagePractise@7ba8c737]" started-at="2025-12-31T13:39:57 IST" name="launchApp" finished-at="2025-12-31T13:40:00 IST" duration-ms="3288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="purchaseOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTest.LoginPagePractise@4961f6af]" started-at="2025-12-29T18:47:34 IST" name="purchaseOrder" data-provider="getDataFromExcel" finished-at="2025-12-29T18:47:48 IST" duration-ms="14025" status="PASS">
+        <test-method signature="purchaseOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTest.LoginPagePractise@7ba8c737]" started-at="2025-12-31T13:40:00 IST" name="purchaseOrder" data-provider="getDataFromExcel" finished-at="2025-12-31T13:40:14 IST" duration-ms="13275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,11 +32,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:dataDrivenTest.LoginPagePractise@4961f6af]" started-at="2025-12-29T18:47:48 IST" name="tearDown" finished-at="2025-12-29T18:47:49 IST" duration-ms="777" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dataDrivenTest.LoginPagePractise@7ba8c737]" started-at="2025-12-31T13:40:14 IST" name="tearDown" finished-at="2025-12-31T13:40:14 IST" duration-ms="762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- dataDrivenTest.LoginPagePractise -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

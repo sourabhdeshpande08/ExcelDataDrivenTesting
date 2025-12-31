@@ -2,16 +2,41 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-29T20:11:51 IST" name="Surefire suite" finished-at="2025-12-29T20:11:52 IST" duration-ms="588">
+  <suite started-at="2025-12-31T13:31:45 IST" name="Surefire suite" finished-at="2025-12-31T13:32:03 IST" duration-ms="17470">
     <groups>
     </groups>
-    <test started-at="2025-12-29T20:11:51 IST" name="Surefire test" finished-at="2025-12-29T20:11:52 IST" duration-ms="588">
-      <class name="dataDrivenTest.sampleTest">
-        <test-method signature="fetchData()[pri:0, instance:dataDrivenTest.sampleTest@7193666c]" started-at="2025-12-29T20:11:51 IST" name="fetchData" finished-at="2025-12-29T20:11:52 IST" duration-ms="556" status="PASS">
+    <test started-at="2025-12-31T13:31:45 IST" name="Surefire test" finished-at="2025-12-31T13:32:03 IST" duration-ms="17470">
+      <class name="dataDrivenTest.LoginPagePractise">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:dataDrivenTest.LoginPagePractise@1d76aeea]" started-at="2025-12-31T13:31:46 IST" name="launchApp" finished-at="2025-12-31T13:31:49 IST" duration-ms="3336" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fetchData -->
-      </class> <!-- dataDrivenTest.sampleTest -->
+        </test-method> <!-- launchApp -->
+        <test-method signature="purchaseOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTest.LoginPagePractise@1d76aeea]" started-at="2025-12-31T13:31:49 IST" name="purchaseOrder" data-provider="getDataFromExcel" finished-at="2025-12-31T13:32:02 IST" duration-ms="12890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/loginpagePractise/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahulshettyacademy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[learning]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dataDrivenTest.LoginPagePractise@1d76aeea]" started-at="2025-12-31T13:32:02 IST" name="tearDown" finished-at="2025-12-31T13:32:03 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dataDrivenTest.LoginPagePractise -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
