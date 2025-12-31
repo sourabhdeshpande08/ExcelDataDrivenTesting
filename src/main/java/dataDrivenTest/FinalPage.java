@@ -41,7 +41,7 @@ public class FinalPage extends AbstractClass {
 		visibleElement(countries);
 		
 		
-		countries.stream().filter(x -> x.getText().equalsIgnoreCase("india")).findFirst().ifPresent(WebElement::click);
+		countries.parallelStream().filter(x -> x.getText().equalsIgnoreCase("india")).findFirst().ifPresent(WebElement::click);
 		
 		
 	}
