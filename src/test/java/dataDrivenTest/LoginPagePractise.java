@@ -27,6 +27,7 @@ public class LoginPagePractise extends BaseTest{
 		finalPage.purchase();
 		
 		
+		
 	}
 	
 	@DataProvider

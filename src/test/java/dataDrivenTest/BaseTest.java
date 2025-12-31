@@ -1,10 +1,14 @@
 package dataDrivenTest;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -74,12 +78,31 @@ public class BaseTest {
 	}
 	
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void tearDown()
 	{
 		
 		driver.quit();
 		
 	}
+	
+	@Test
+	public String getScreenshot(String failedTestCase) throws IOException
+	{
+		
+ 		File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+ 		
+ 		String destinationFilePath = System.getProperty("user.dir")+"/Screenshots/"+failedTestCase+".jpeg";
+ 		
+ 		File destination = new File(destinationFilePath);
+ 		
+ 		FileUtils.copyFile(source, destination);
+ 		
+ 		return destinationFilePath;
+		
+		
+	}
+	
+	
 
 }
